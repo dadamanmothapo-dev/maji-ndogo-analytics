@@ -1,5 +1,7 @@
 # Maji Ndogo Python Foundations
-
+| Module | Status | Link |
+|--------|--------|------|
+| Python Foundations | 🟢 ACTIVE | [Python Foundations](/rltoken/nV9UqY6aM8o6SO23jN3DIQ) |
 ## Business Problem
 
 Maji Ndogo is using data and technology to improve agricultural operations and decision-making. This Python Foundations project focuses on applying core Python programming concepts to agricultural data such as farms, vehicles, crops, fuel levels and harvest records.
