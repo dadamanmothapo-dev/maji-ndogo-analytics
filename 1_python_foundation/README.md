@@ -1,108 +1,19 @@
-# Maji Ndogo Python Foundations
-| Module | Status | Link |
-|--------|--------|------|
-| Python Foundations | 🟢 ACTIVE | [Python Foundations](/rltoken/nV9UqY6aM8o6SO23jN3DIQ) |
-## Business Problem
+# Module 3 Case Study: Tractor Traversal Algorithm
 
-Maji Ndogo is using data and technology to improve agricultural operations and decision-making. This Python Foundations project focuses on applying core Python programming concepts to agricultural data such as farms, vehicles, crops, fuel levels and harvest records.
+## 1. The Business Problem
+The Ministry of Agriculture required a reliable, automated path-planning algorithm for tractor field coverage. The goal was to build a modular, composable Python framework to execute efficient serpentine (zigzag) field traversals while safely handling obstacles.
 
-The goal was to create Python functions that process this information and produce useful results for decision-making.
+## 2. The Tech Stack
+- **Language:** Core Python 3
+- **Concepts:** Functional Decomposition, Control Flow, List Comprehensions, Modular Design
 
-## Tech Stack
+## 3. The Deliverable
 
-- Python
-- Marimo
-- Visual Studio Code
-- GitHub
+### Case Study Screenshots & Evidence
 
-The project uses core Python concepts including variables, conditional statements, loops, lists, dictionaries, sets and functions.
+![Fuel Status](images/01-fuel-status.png)
+![Planted Cells](images/02-planted-cells.png)
+![Drive and Plant](images/03-drive-plant.png)
 
-## Deliverable
-
-The deliverable consists of eight Python challenges demonstrating practical programming skills.
-
-### Challenge 1 — Fuel Status
-
-**Code**
-
-![Fuel Status Code](01-fuel-status-code.png)
-
-**Output**
-
-![Fuel Status Output](01-fuel-status-output.png)
-
-### Challenge 2 — Count Planted Cells
-
-**Code**
-
-![Planted Cells Code](02-planted-cells-code.png)
-
-**Output**
-
-![Planted Cells Output](02-planted-cells-output.png)
-
-### Challenge 3 — Drive and Plant
-
-**Code**
-
-![Drive and Plant Code](03-drive-and-plant-code.png)
-
-**Output**
-
-![Drive and Plant Output](03-drive-and-plant-output.png)
-
-### Challenge 4 — Total Horsepower
-
-**Code**
-
-![Total Horsepower Code](04-total-horsepower-code.png)
-
-**Output**
-
-![Total Horsepower Output](04-total-horsepower-output.png)
-
-### Challenge 5 — Low Fuel Models
-
-**Code**
-
-![Low Fuel Models Code](05-low-fuel-models-code.png)
-
-**Output**
-
-![Low Fuel Models Output](05-low-fuel-models-output.png)
-
-### Challenge 6 — Revenue by Crop
-
-**Code**
-
-![Revenue by Crop Code](06-revenue-by-crop-code.png)
-
-**Output**
-
-![Revenue by Crop Output](06-revenue-by-crop-output.png)
-
-### Challenge 7 — Compare Crop Plans
-
-**Code**
-
-![Compare Crop Plans Code](07-compare-crop-plans-code.png)
-
-**Output**
-
-![Compare Crop Plans Output](07-compare-crop-plans-output%202.png)
-
-### Challenge 8 — Record Harvest
-
-**Code**
-
-![Record Harvest Code](08-record-harvest-code.png)
-
-**Output**
-
-![Record Harvest Output](08-record-harvest-output.png)
-
-## So What?
-
-These Python exercises demonstrate how programming can turn agricultural information into useful outputs. The skills developed can support future data analysis, automation and decision-making within the Maji Ndogo project.
-
-The project also demonstrates the importance of reusable functions, structured data and checking outputs for accuracy.
+## 4. The "So What?" (Business Impact)
+By replacing a monolithic script with modular functions, field operations reduce unnecessary turning maneuvers, saving fuel. This flexible pipeline allows new field conditions to be integrated without rewriting core navigation logic.
